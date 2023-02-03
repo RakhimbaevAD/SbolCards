@@ -49,10 +49,6 @@
                 },
                 "type": "left_right_cell_view"
             }, {
-                "divider": {
-                    "size": "d1",
-                    "style": "default"
-                },
                 "left": {
                     "texts": {
                         "margins": {
@@ -81,7 +77,7 @@
                 "paddings": {
                     "bottom": "6x",
                     "left": "0x",
-                    "right": "4x",
+                    "right": "8x",
                     "top": "6x"
                 },
                 "right": {
