@@ -112,7 +112,7 @@
                             "max_lines": 2,
                             "text": "В течении года сумма пополнения не должна превышать 1 млн ₽",
                             "text_color": "secondary",
-                            "typeface": "body2"
+                            "typeface": "footnote1"
                         }
                     },
                     "type": "simple_left_view"
