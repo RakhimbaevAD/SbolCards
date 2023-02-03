@@ -106,9 +106,6 @@
                             "vertical_gravity": "bottom"
                         }
                     ],
-                    "paddings": {
-                        "right": "100x"
-                    },
                     "type": "right_cell_array_view"
                 },
                 "type": "left_right_cell_view"
@@ -125,7 +122,7 @@
                     "type": "simple_left_view"
                 },
                 "paddings": {
-                    "bottom": "4x",
+                    "bottom": "0x",
                     "left": "8x",
                     "right": "8x",
                     "top": "0x"
