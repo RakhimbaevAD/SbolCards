@@ -127,15 +127,13 @@
                     "right": "8x",
                     "top": "0x"
                 },
-                "margins": {
-                    "bottom": "8x"
-                },
                 "type": "left_right_cell_view"
             }
         ],
         "paddings": {
             "left": "0x",
-            "right": "0x"
+            "right": "0x",
+            "bottom": "4x"
         },
         "type": "list_card"
     }
