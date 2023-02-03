@@ -111,7 +111,7 @@
             }, {
                 "left": {
                     "texts": {
-                        "subtitle": {
+                        "title": {
                             "max_lines": 2,
                             "text": "В течении года сумма пополнения не должна превышать 1 млн ₽",
                             "text_color": "secondary",
