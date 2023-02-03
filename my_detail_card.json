@@ -127,6 +127,9 @@
                     "right": "8x",
                     "top": "0x"
                 },
+                "margins": {
+                    "bottom": "8x"
+                },
                 "type": "left_right_cell_view"
             }
         ],
