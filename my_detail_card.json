@@ -49,10 +49,6 @@
                 },
                 "type": "left_right_cell_view"
             }, {
-                "divider": {
-                    "size": "d1",
-                    "style": "default"
-                },
                 "left": {
                     "texts": {
                         "margins": {
@@ -133,7 +129,7 @@
         "paddings": {
             "left": "0x",
             "right": "0x",
-            "bottom": "4x"
+            "bottom": "8x"
         },
         "type": "list_card"
     }
