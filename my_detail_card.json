@@ -49,6 +49,10 @@
                 },
                 "type": "left_right_cell_view"
             }, {
+                "divider": {
+                    "size": "d1",
+                    "style": "default"
+                },
                 "left": {
                     "texts": {
                         "margins": {
