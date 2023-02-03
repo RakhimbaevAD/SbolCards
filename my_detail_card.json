@@ -1,3 +1,4 @@
+
 {
     "card": {
         "cells": [{
@@ -63,7 +64,7 @@
                             "margins": {
                                 "top": "1x"
                             },
-                            "text": "100500 рублей",
+                            "text": "2056,28 ₽",
                             "text_color": "default",
                             "typeface": "body1"
                         },
@@ -86,7 +87,7 @@
                 "right": {
                     "items": [{
                             "detail": {
-                                "text": "доход",
+                                "text": "Доход",
                                 "text_color": "secondary",
                                 "typeface": "body1"
                             },
@@ -106,9 +107,28 @@
                         }
                     ],
                     "paddings": {
-                        "right": "50x"
+                        "right": "100x"
                     },
                     "type": "right_cell_array_view"
+                },
+                "type": "left_right_cell_view"
+            }, {
+                "left": {
+                    "texts": {
+                        "subtitle": {
+                            "max_lines": 2,
+                            "text": "В течении года сумма пополнения не должна превышать 1 млн ₽",
+                            "text_color": "secondary",
+                            "typeface": "footnote1"
+                        }
+                    },
+                    "type": "simple_left_view"
+                },
+                "paddings": {
+                    "bottom": "0x",
+                    "left": "8x",
+                    "right": "8x",
+                    "top": "0x"
                 },
                 "type": "left_right_cell_view"
             }
