@@ -125,7 +125,7 @@
                     "type": "simple_left_view"
                 },
                 "paddings": {
-                    "bottom": "0x",
+                    "bottom": "4x",
                     "left": "8x",
                     "right": "8x",
                     "top": "0x"
