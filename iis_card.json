@@ -1,79 +1,328 @@
 {
-    "type": "left_right_cell_view",
-    "divider": {
-        "style": "read_only",
-        "size": "d1"
-    },
-    "paddings": {
-        "top": "6x",
-        "left": "0x",
-        "right": "4x",
-        "bottom": "6x"
-    },
-    "left": {
-        "type": "simple_left_view",
-        "icon": {
-            "tint_color": "solid_brand",
-            "address": {
-                "type": "local",
-                "identificator": "safe_diagram"
-            },
-            "size": {
-                "width": "medium",
-                "height": "medium"
-            },
-            "margins": {
-                "right": "2x"
-            }
+    "card": {
+        "type": "list_card",
+        "can_be_disabled": true,
+        "paddings": {
+            "left": "8x",
+            "right": "8x"
         },
-        "icon_vertical_gravity": "center",
-        "texts": {
-            "type": "text_cell_view",
-            "max_lines": 0,
-            "title": {
-                "text": "Индивидуальный пенсионный план",
-                "typeface": "body1",
-                "text_color": "default",
-                "max_lines": 0
-            },
-            "subtitle": {
-                "text": "∙∙ 0047",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "margins": {
-                    "top": "1x"
+        "cells": [
+            {
+                "type": "text_cell_view",
+                "content": {
+                    "text": "Пополнение ИПП",
+                    "typeface": "headline4",
+                    "text_color": "default",
+                    "max_lines": 0
+                },
+                "paddings": {
+                    "top": "10x",
+                    "bottom": "5x"
                 }
             },
-            "margins": {
-                "right": "2x",
-                "left": "3x"
-            }
-        }
-    },
-    "right": {
-        "type": "detail_right_view",
-        "vertical_gravity": "top",
-        "detail": {
-            "__PERSONAL_TEXT__": true,
-            "vertical_gravity": "top",
-            "text": "35 000 ₽",
-            "typeface": "body1",
-            "text_color": "default"
-        },
-        "info_and_icon": {
-            "info": {
-                "__PERSONAL_TEXT__": true,
-                "text": "0 ₽",
-                "typeface": "footnote1",
-                "text_color": "secondary",
-                "max_lines": 0,
-                "margins": {
+            {
+                "type": "left_right_cell_view",
+                "divider": {
+                    "style": "read_only",
+                    "size": "d1"
+                },
+                "paddings": {
+                    "top": "6x",
+                    "left": "0x",
+                    "right": "4x",
+                    "bottom": "6x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "tint_color": "solid_brand",
+                        "address": {
+                            "type": "local",
+                            "identificator": "safe_diagram"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "2x"
+                        }
+                    },
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "type": "text_cell_view",
+                        "max_lines": 0,
+                        "title": {
+                            "text": "Индивидуальный пенсионный план",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "max_lines": 0
+                        },
+                        "subtitle": {
+                            "text": "∙∙ 0047",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        },
+                        "margins": {
+                            "right": "2x",
+                            "left": "3x"
+                        }
+                    }
+                },
+                "right": {
+                    "type": "detail_right_view",
+                    "vertical_gravity": "top",
+                    "detail": {
+                        "__PERSONAL_TEXT__": true,
+                        "vertical_gravity": "top",
+                        "text": "35 000 ₽",
+                        "typeface": "body1",
+                        "text_color": "default"
+                    },
+                    "info_and_icon": {
+                        "info": {
+                            "__PERSONAL_TEXT__": true,
+                            "text": "0 ₽",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "max_lines": 0,
+                            "margins": {
+                                "left": "16x"
+                            }
+                        },
+                        "margins": {
+                            "left": "16x"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "6x",
                     "left": "16x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Карта списания",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins": {
+                                "left": "6x"
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "type": "disclosure_right_view"
                 }
             },
-            "margins": {
-                "left": "16x"
+            {
+                "type": "left_right_cell_view",
+                "divider": {
+                    "style": "default",
+                    "size": "d1"
+                },
+                "paddings": {
+                    "left": "0x",
+                    "top": "3x",
+                    "right": "4x",
+                    "bottom": "6x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "card_visa"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "2x"
+                        }
+                    },
+                    "icon_vertical_gravity": "top",
+                    "texts": {
+                        "title": {
+                            "text": "Visa Classic",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "subtitle": {
+                            "text": "∙∙ 1738",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        },
+                        "margins": {
+                            "right": "2x",
+                            "left": "3x"
+                        }
+                    }
+                },
+                "right": {
+                    "type": "detail_right_view",
+                    "detail": {
+                        "__PERSONAL_TEXT__": true,
+                        "text": "2 000,15 ₽",
+                        "typeface": "body1",
+                        "text_color": "brand"
+                    },
+                    "vertical_gravity": "top"
+                },
+                "actions": [
+                    {
+                        "type": "text",
+                        "text": "Другая карта"
+                    }
+                ]
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "6x",
+                    "left": "16x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Сумма",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins": {
+                                "left": "6x"
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "type": "disclosure_right_view"
+                }
+            },
+            {
+                "type": "left_right_cell_view",
+                "divider": {
+                    "style": "default",
+                    "size": "d1"
+                },
+                "paddings": {
+                    "left": "0x",
+                    "top": "3x",
+                    "right": "0x",
+                    "bottom": "6x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon": {
+                        "address": {
+                            "type": "local",
+                            "identificator": "color_total"
+                        },
+                        "size": {
+                            "width": "medium",
+                            "height": "medium"
+                        },
+                        "margins": {
+                            "right": "2x"
+                        },
+                        "tint_color": "solid_white"
+                    },
+                    "icon_vertical_gravity": "top",
+                    "texts": {
+                        "title": {
+                            "__PERSONAL_TEXT__": true,
+                            "text": "1900 ₽",
+                            "typeface": "body1",
+                            "text_color": "default"
+                        },
+                        "subtitle": {
+                            "__PERSONAL_TEXT__": true,
+                            "text": "Комиссия 0 ₽",
+                            "typeface": "footnote1",
+                            "text_color": "secondary",
+                            "margins": {
+                                "top": "1x"
+                            }
+                        },
+                        "margins": {
+                            "right": "2x",
+                            "left": "3x"
+                        }
+                    }
+                },
+                "actions": [
+                    {
+                        "type": "text",
+                        "text": "Другая сумма"
+                    }
+                ]
+            },
+            {
+                "type": "left_right_cell_view",
+                "paddings": {
+                    "top": "8x",
+                    "bottom": "4x"
+                },
+                "left": {
+                    "type": "simple_left_view",
+                    "icon_vertical_gravity": "center",
+                    "texts": {
+                        "title": {
+                            "text": "Подробности заявки",
+                            "typeface": "body1",
+                            "text_color": "default",
+                            "margins": {
+                                "left": "4x"
+                            }
+                        }
+                    }
+                },
+                "right": {
+                    "type": "disclosure_right_view"
+                },
+                "actions": [
+                    {
+                        "type": "text",
+                        "text": "Подробности заявки"
+                    }
+                ]
+            },
+            {
+                "type": "button_cell_view",
+                "content": {
+                    "text": "Подтверждаю",
+                    "typeface": "button1",
+                    "style": "default",
+                    "type": "accept",
+                    "margins": {
+                        "top": "8x",
+                        "bottom": "8x"
+                    },
+                    "actions": [
+                        {
+                            "type": "text",
+                            "text": "Подтверждаю"
+                        }
+                    ]
+                },
+                "paddings": {
+                    "top": "6x",
+                    "bottom": "8x"
+                }
             }
-        }
+        ]
     }
 }
