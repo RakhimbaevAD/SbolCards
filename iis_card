@@ -1,0 +1,79 @@
+{
+    "type": "left_right_cell_view",
+    "divider": {
+        "style": "read_only",
+        "size": "d1"
+    },
+    "paddings": {
+        "top": "6x",
+        "left": "0x",
+        "right": "4x",
+        "bottom": "6x"
+    },
+    "left": {
+        "type": "simple_left_view",
+        "icon": {
+            "tint_color": "solid_brand",
+            "address": {
+                "type": "local",
+                "identificator": "safe_diagram"
+            },
+            "size": {
+                "width": "medium",
+                "height": "medium"
+            },
+            "margins": {
+                "right": "2x"
+            }
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+            "type": "text_cell_view",
+            "max_lines": 0,
+            "title": {
+                "text": "Индивидуальный пенсионный план",
+                "typeface": "body1",
+                "text_color": "default",
+                "max_lines": 0
+            },
+            "subtitle": {
+                "text": "∙∙ 0047",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "margins": {
+                    "top": "1x"
+                }
+            },
+            "margins": {
+                "right": "2x",
+                "left": "3x"
+            }
+        }
+    },
+    "right": {
+        "type": "detail_right_view",
+        "vertical_gravity": "top",
+        "detail": {
+            "__PERSONAL_TEXT__": true,
+            "vertical_gravity": "top",
+            "text": "35 000 ₽",
+            "typeface": "body1",
+            "text_color": "default"
+        },
+        "info_and_icon": {
+            "info": {
+                "__PERSONAL_TEXT__": true,
+                "text": "0 ₽",
+                "typeface": "footnote1",
+                "text_color": "secondary",
+                "max_lines": 0,
+                "margins": {
+                    "left": "16x"
+                }
+            },
+            "margins": {
+                "left": "16x"
+            }
+        }
+    }
+}
